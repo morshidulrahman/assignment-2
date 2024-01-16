@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+.hero_section{
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 501px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero_content h1 {
+    font-size: 4rem;
+    color: #FFF;
+}
+
+.hero_content p {
+    width: 700px;
+    color: #FFF;
+    margin: 30px 0px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.hero_group {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 12px;
+}
+
+.hero_group div {
+    width: 174px;
+    height: 52px;
+    background: white;
+    border-radius: 8px;
+}
+
+.hero_btn_group{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+
+.hero_select {
+ 
+    color: gray;
+    width: 90%;
+    text-transform: capitalize;
+}
+.primary_btn{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    font-weight: 400;
+    color: white;
+}
+
+.hero_btn {
+    display: flex;
+    background: #FF5400 !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.hero_btn img {
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+}
