@@ -84,6 +84,7 @@ section {
     border-radius: 4px;
     border: none;
     background: #FF5400;
+    text-transform: capitalize;
     font-weight: 600;
     color: white;
     -webkit-border-radius: 4px;
@@ -377,9 +378,106 @@ background: rgba(41, 206, 246, 0.05);
 .chose_down_box p {
     color: #5A5A5D;
 }
+.discount_content{
+    padding: 40px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 50%;
+}
+.discount_first_section {
+    background-image: url(./Images/Group\ 39.png);
+    padding: 40px;
+    border-radius: 16px !important;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row-reverse;
+}
+.discount_heading {
+    display: flex;
+    gap: 10px;
+}
+
+.discount_heading_desc img {
+    width: 12%;
+}
+
+.discount_heading_desc {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 5px;
+}
+
+.discount_heading_desc p {
+    font-size: 14px;
+    color: #5A5A5D;
+}
+.discount_content h2 {
+    padding: 10px 0px;
+}
+
+.discount_content p {
+    color: #5A5A5D;
+    padding: 5px 0px;
+}
+
+p.discount_price {
+    padding: 18px 0px;
+    font-weight: 800;
+    color: #FF5400;
+}
+
+.discount_first_section.second_box {
+    flex-flow: column-reverse;
+}
+
+.discount_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+.dis_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+     
+}
 /* response design */
 
 @media only screen and (max-width: 600px) {
+    .discount_content{
+        width: 90%;
+        padding: 20px;
+    }
+    
+.discount_first_section{
+     align-items: center;
+     justify-content: center;
+     height:500px;
+     padding-top: 130px;
+}
+    .discount_heading{
+        flex-wrap: wrap;
+        gap:0;
+    }
+    .discount_heading_desc{
+        width: 50%;
+        gap: 5px;
+    }
+    .discount_heading_desc p{
+        font-size: 12px;
+    }
+    .discount_content h2{
+      font-size: 18px;
+      padding: 5px 0px;
+    }
+    p.discount_price{
+        font-size: 15px;
+        padding: 8px 0px;
+    }
     .choose_wrapper {
         flex-direction: column;
     }
